@@ -30,7 +30,7 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Generate analysis outputs
-        run: python src/analyze_jobs.py
+        run: python src/analyze_market.py
 
       - name: Upload generated outputs
         uses: actions/upload-artifact@v4
