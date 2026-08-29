@@ -1,9 +1,0 @@
-job_id,company,role,region,work_mode,fit_score,matched_keywords,role_match,work_mode_match,region_match
-J008,Clear Path,Executive Assistant,Europe,Remote,73.0,executive support; documentation; action tracking; automation,True,True,True
-J002,Green Orbit,Business Operations Coordinator,Europe,Remote,73.0,business operations; project coordination; process improvement; automation,True,True,True
-J001,Northstar Labs,Executive Assistant,EMEA,Remote,73.0,executive support; stakeholder management; documentation; action tracking,True,True,True
-J004,Signal Works,Executive Coordinator,Global,Remote,73.0,executive support; project coordination; documentation; international operations,True,True,True
-J007,Common Ground,Operations Coordinator,Netherlands,Hybrid,53.5,business operations; stakeholder management; action tracking,True,False,True
-J006,Nova Research,Research Assistant,Global,Remote,33.5,stakeholder management; documentation; artificial intelligence,False,True,True
-J005,Blue Harbour,Customer Operations Specialist,Europe,Hybrid,14.0,process improvement; documentation,False,False,True
-J003,Atlas Systems,Office Coordinator,Netherlands,On-site,5.0,,False,False,True
