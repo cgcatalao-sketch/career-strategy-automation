@@ -1,0 +1,17 @@
+[
+  {"search_term": "ownership", "capability": "Ownership / autonomy"},
+  {"search_term": "stakeholder", "capability": "Stakeholder management"},
+  {"search_term": "communication", "capability": "Communication"},
+  {"search_term": "calendar", "capability": "Calendar & priority management"},
+  {"search_term": "process improvement", "capability": "Process improvement"},
+  {"search_term": "documentation", "capability": "Documentation"},
+  {"search_term": "cross-functional", "capability": "Cross-functional coordination"},
+  {"search_term": "reporting", "capability": "Reporting"},
+  {"search_term": "travel", "capability": "International travel"},
+  {"search_term": "confidential", "capability": "Confidentiality / discretion"},
+  {"search_term": "project coordination", "capability": "Project coordination"},
+  {"search_term": "remote", "capability": "Remote collaboration"},
+  {"search_term": "AI", "capability": "AI fluency"},
+  {"search_term": "CRM", "capability": "CRM"},
+  {"search_term": "risk", "capability": "Risk / issue management"}
+]
