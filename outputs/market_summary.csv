@@ -1,0 +1,21 @@
+metric,segment,count,share
+sample,vacancies,40,1.0
+work_model,remote_or_remote_first,31,0.775
+role_family,P1,13,0.325
+role_family,P2,13,0.325
+role_family,P3,14,0.35
+capability,Communication,21,0.525
+capability,Stakeholder management,10,0.25
+capability,Ownership / autonomy,8,0.2
+capability,Calendar & priority management,7,0.175
+capability,Remote collaboration,7,0.175
+capability,Cross-functional coordination,6,0.15
+capability,Reporting,6,0.15
+capability,Confidentiality / discretion,5,0.125
+capability,International travel,5,0.125
+capability,Process improvement,5,0.125
+capability,Project coordination,5,0.125
+capability,CRM,3,0.075
+capability,Documentation,3,0.075
+capability,Risk / issue management,3,0.075
+capability,AI fluency,2,0.05
