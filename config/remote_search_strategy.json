@@ -1,25 +1,31 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "updated": "2026-09-14",
   "search_tracks": [
     {
       "name": "remote_netherlands",
       "eligibility": ["Netherlands", "Remote Netherlands", "EMEA where Netherlands is explicitly eligible"],
-      "remote_required": true,
+      "work_models": ["remote"],
       "preferences": ["European/EMEA hours", "EUR compensation", "flexible or asynchronous work"]
     },
     {
       "name": "international_remote",
       "eligibility": ["Worldwide", "EMEA where Netherlands is eligible", "Brazil", "LATAM where Brazil is eligible"],
-      "remote_required": true,
+      "work_models": ["remote"],
       "preferences": ["distributed global teams", "USD or EUR compensation", "flexible or asynchronous work", "Brazilian Portuguese advantage"]
     },
     {
       "name": "hybrid_strong_fit_exception",
       "eligibility": ["Any location where relocation or work authorization requirements are feasible"],
-      "remote_required": false,
+      "work_models": ["hybrid"],
       "preferences": ["high professional fit", "strong compensation or strategic value", "clear hybrid schedule", "relocation or visa feasibility"],
       "rule": "Present strong hybrid opportunities regardless of location, but explicitly state onsite frequency, location, relocation or visa requirements, and compensation when available."
+    },
+    {
+      "name": "botanical_wellness_psychedelic_location_flexible",
+      "eligibility": ["Any location where relocation or work authorization requirements can be assessed"],
+      "work_models": ["remote", "hybrid", "onsite"],
+      "rule": "For high-fit opportunities in the Botanical, Wellness & Psychedelic Ecosystem, do not use remote preference as an exclusion filter. Present relevant onsite roles worldwide and assess work authorization, visa, relocation support, compensation, relocation feasibility and strategic value."
     }
   ],
   "priority_role_families": [
@@ -35,6 +41,7 @@
     {
       "name": "botanical_wellness_psychedelic_ecosystem",
       "priority_boost": true,
+      "allowed_work_models": ["remote", "hybrid", "onsite"],
       "themes": [
         "medicinal plants", "ethnobotany", "herbal medicine", "herbal wellness", "botanical products",
         "natural wellness", "functional mushrooms", "mycology", "integrative health", "self-care",
@@ -55,11 +62,12 @@
     "vacancy_is_active",
     "application_page_is_functional",
     "geographic_eligibility_or_relocation_requirements_are_confirmed",
-    "work_model_is_identified_as_remote_or_hybrid",
+    "work_model_is_identified_as_remote_hybrid_or_onsite",
     "professional_fit_is_relevant",
     "salary_and_currency_are_recorded_if_published",
     "timezone_and_working_hours_are_recorded_if_published",
-    "hybrid_onsite_frequency_and_location_are_recorded_if_applicable",
+    "hybrid_or_onsite_location_and_presence_requirements_are_recorded_if_applicable",
+    "relocation_and_visa_feasibility_are_assessed_if_applicable",
     "psychedelic_related_activity_is_legal_and_regulated_if_applicable"
   ],
   "source_policy": {
@@ -68,5 +76,5 @@
     "aggregator_only_recommendation": false,
     "preferred_ats": ["Ashby", "Greenhouse", "Lever", "Workday"]
   },
-  "notification_policy": "Notify genuinely relevant remote opportunities, exceptionally strong hybrid opportunities, and high-fit roles in the Botanical, Wellness & Psychedelic Ecosystem. Explicitly state location, onsite frequency, timezone, working-hours, contracting, relocation and visa restrictions."
+  "notification_policy": "Notify relevant remote opportunities, exceptionally strong hybrid opportunities, and remote, hybrid or onsite high-fit roles in the Botanical, Wellness & Psychedelic Ecosystem. For onsite roles explicitly state city/country, work authorization or visa, relocation requirements or support, compensation and preliminary relocation feasibility."
 }
