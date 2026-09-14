@@ -1,76 +1,55 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "updated": "2026-09-14",
   "search_tracks": [
     {
       "name": "remote_netherlands",
-      "eligibility": [
-        "Netherlands",
-        "Remote Netherlands",
-        "EMEA where Netherlands is explicitly eligible"
-      ],
+      "eligibility": ["Netherlands", "Remote Netherlands", "EMEA where Netherlands is explicitly eligible"],
       "remote_required": true,
-      "preferences": [
-        "European/EMEA hours",
-        "EUR compensation",
-        "flexible or asynchronous work"
-      ]
+      "preferences": ["European/EMEA hours", "EUR compensation", "flexible or asynchronous work"]
     },
     {
       "name": "international_remote",
-      "eligibility": [
-        "Worldwide",
-        "EMEA where Netherlands is eligible",
-        "Brazil",
-        "LATAM where Brazil is eligible"
-      ],
+      "eligibility": ["Worldwide", "EMEA where Netherlands is eligible", "Brazil", "LATAM where Brazil is eligible"],
       "remote_required": true,
-      "preferences": [
-        "distributed global teams",
-        "USD or EUR compensation",
-        "flexible or asynchronous work",
-        "Brazilian Portuguese advantage"
-      ]
+      "preferences": ["distributed global teams", "USD or EUR compensation", "flexible or asynchronous work", "Brazilian Portuguese advantage"]
     },
     {
       "name": "hybrid_strong_fit_exception",
-      "eligibility": [
-        "Any location where relocation or work authorization requirements are feasible"
-      ],
+      "eligibility": ["Any location where relocation or work authorization requirements are feasible"],
       "remote_required": false,
-      "preferences": [
-        "high professional fit",
-        "strong compensation or strategic value",
-        "clear hybrid schedule",
-        "relocation or visa feasibility"
-      ],
+      "preferences": ["high professional fit", "strong compensation or strategic value", "clear hybrid schedule", "relocation or visa feasibility"],
       "rule": "Present strong hybrid opportunities regardless of location, but explicitly state onsite frequency, location, relocation or visa requirements, and compensation when available."
     }
   ],
   "priority_role_families": [
-    "Executive Assistant",
-    "Executive Coordinator",
-    "Administrative Assistant",
-    "Administrative Coordinator",
-    "Project Assistant",
-    "Project Support",
-    "Project Coordinator",
-    "Program Assistant",
-    "Program Coordinator",
-    "Office Coordinator",
-    "Team Coordinator",
-    "Customer Success",
-    "Customer Support",
-    "Operations",
-    "Business Operations",
-    "Implementation",
-    "Onboarding",
-    "Compliance",
-    "Documentation",
-    "International Logistics",
-    "Export Operations",
-    "Supply Chain",
-    "Logistics Coordination"
+    "Executive Assistant", "Executive Coordinator", "Administrative Assistant", "Administrative Coordinator",
+    "Project Assistant", "Project Support", "Project Coordinator", "Program Assistant", "Program Coordinator",
+    "Office Coordinator", "Team Coordinator", "Customer Success", "Customer Support", "Community",
+    "Operations", "Business Operations", "Implementation", "Onboarding", "Compliance", "Documentation",
+    "International Logistics", "Export Operations", "Supply Chain", "Logistics Coordination",
+    "Education", "Content Coordination", "Knowledge Coordination", "Research Support", "Research Coordination",
+    "Partnerships", "Client Operations", "Retreat Operations", "Experience Operations", "Program Operations"
+  ],
+  "thematic_filters": [
+    {
+      "name": "botanical_wellness_psychedelic_ecosystem",
+      "priority_boost": true,
+      "themes": [
+        "medicinal plants", "ethnobotany", "herbal medicine", "herbal wellness", "botanical products",
+        "natural wellness", "functional mushrooms", "mycology", "integrative health", "self-care",
+        "wellness retreats", "retreat centers", "regenerative experiences", "botanical research",
+        "biodiversity", "conservation", "plant education", "knowledge development",
+        "psychedelic science", "psychedelic research", "legal regulated psychedelic therapy",
+        "psychedelic education", "psychedelic advocacy", "clinical operations", "research operations"
+      ],
+      "fit_rule": "Theme fit does not replace professional fit. Prioritize roles compatible with operations, coordination, executive or administrative support, projects, customer experience, documentation and compliance, international logistics, applied research, content, education, partnerships and program or retreat operations.",
+      "exclusions": [
+        "clinical roles requiring licenses the candidate does not hold",
+        "highly specialized pharmacology or laboratory roles without qualification match",
+        "illegal or unregulated psychedelic activities"
+      ]
+    }
   ],
   "validation_gate": [
     "vacancy_is_active",
@@ -80,25 +59,14 @@
     "professional_fit_is_relevant",
     "salary_and_currency_are_recorded_if_published",
     "timezone_and_working_hours_are_recorded_if_published",
-    "hybrid_onsite_frequency_and_location_are_recorded_if_applicable"
+    "hybrid_onsite_frequency_and_location_are_recorded_if_applicable",
+    "psychedelic_related_activity_is_legal_and_regulated_if_applicable"
   ],
   "source_policy": {
-    "discovery": [
-      "official company careers",
-      "official ATS",
-      "job aggregators"
-    ],
-    "recommendation_evidence": [
-      "official company careers",
-      "official ATS"
-    ],
+    "discovery": ["official company careers", "official ATS", "job aggregators"],
+    "recommendation_evidence": ["official company careers", "official ATS"],
     "aggregator_only_recommendation": false,
-    "preferred_ats": [
-      "Ashby",
-      "Greenhouse",
-      "Lever",
-      "Workday"
-    ]
+    "preferred_ats": ["Ashby", "Greenhouse", "Lever", "Workday"]
   },
-  "notification_policy": "Notify genuinely relevant remote opportunities and exceptionally strong hybrid opportunities. Explicitly state location, onsite frequency, timezone, working-hours, contracting, relocation and visa restrictions."
+  "notification_policy": "Notify genuinely relevant remote opportunities, exceptionally strong hybrid opportunities, and high-fit roles in the Botanical, Wellness & Psychedelic Ecosystem. Explicitly state location, onsite frequency, timezone, working-hours, contracting, relocation and visa restrictions."
 }
