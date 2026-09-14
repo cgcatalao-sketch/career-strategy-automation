@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "updated": "2026-09-14",
   "search_tracks": [
     {
@@ -31,6 +31,20 @@
         "flexible or asynchronous work",
         "Brazilian Portuguese advantage"
       ]
+    },
+    {
+      "name": "hybrid_strong_fit_exception",
+      "eligibility": [
+        "Any location where relocation or work authorization requirements are feasible"
+      ],
+      "remote_required": false,
+      "preferences": [
+        "high professional fit",
+        "strong compensation or strategic value",
+        "clear hybrid schedule",
+        "relocation or visa feasibility"
+      ],
+      "rule": "Present strong hybrid opportunities regardless of location, but explicitly state onsite frequency, location, relocation or visa requirements, and compensation when available."
     }
   ],
   "priority_role_families": [
@@ -61,11 +75,12 @@
   "validation_gate": [
     "vacancy_is_active",
     "application_page_is_functional",
-    "geographic_eligibility_is_confirmed",
-    "role_is_100_percent_remote",
+    "geographic_eligibility_or_relocation_requirements_are_confirmed",
+    "work_model_is_identified_as_remote_or_hybrid",
     "professional_fit_is_relevant",
     "salary_and_currency_are_recorded_if_published",
-    "timezone_and_working_hours_are_recorded_if_published"
+    "timezone_and_working_hours_are_recorded_if_published",
+    "hybrid_onsite_frequency_and_location_are_recorded_if_applicable"
   ],
   "source_policy": {
     "discovery": [
@@ -85,5 +100,5 @@
       "Workday"
     ]
   },
-  "notification_policy": "Notify only genuinely relevant opportunities and explicitly state location, timezone, working-hours and contracting restrictions."
+  "notification_policy": "Notify genuinely relevant remote opportunities and exceptionally strong hybrid opportunities. Explicitly state location, onsite frequency, timezone, working-hours, contracting, relocation and visa restrictions."
 }
