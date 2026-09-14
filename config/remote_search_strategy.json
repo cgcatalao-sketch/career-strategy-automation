@@ -1,0 +1,89 @@
+{
+  "version": "2.0",
+  "updated": "2026-09-14",
+  "search_tracks": [
+    {
+      "name": "remote_netherlands",
+      "eligibility": [
+        "Netherlands",
+        "Remote Netherlands",
+        "EMEA where Netherlands is explicitly eligible"
+      ],
+      "remote_required": true,
+      "preferences": [
+        "European/EMEA hours",
+        "EUR compensation",
+        "flexible or asynchronous work"
+      ]
+    },
+    {
+      "name": "international_remote",
+      "eligibility": [
+        "Worldwide",
+        "EMEA where Netherlands is eligible",
+        "Brazil",
+        "LATAM where Brazil is eligible"
+      ],
+      "remote_required": true,
+      "preferences": [
+        "distributed global teams",
+        "USD or EUR compensation",
+        "flexible or asynchronous work",
+        "Brazilian Portuguese advantage"
+      ]
+    }
+  ],
+  "priority_role_families": [
+    "Executive Assistant",
+    "Executive Coordinator",
+    "Administrative Assistant",
+    "Administrative Coordinator",
+    "Project Assistant",
+    "Project Support",
+    "Project Coordinator",
+    "Program Assistant",
+    "Program Coordinator",
+    "Office Coordinator",
+    "Team Coordinator",
+    "Customer Success",
+    "Customer Support",
+    "Operations",
+    "Business Operations",
+    "Implementation",
+    "Onboarding",
+    "Compliance",
+    "Documentation",
+    "International Logistics",
+    "Export Operations",
+    "Supply Chain",
+    "Logistics Coordination"
+  ],
+  "validation_gate": [
+    "vacancy_is_active",
+    "application_page_is_functional",
+    "geographic_eligibility_is_confirmed",
+    "role_is_100_percent_remote",
+    "professional_fit_is_relevant",
+    "salary_and_currency_are_recorded_if_published",
+    "timezone_and_working_hours_are_recorded_if_published"
+  ],
+  "source_policy": {
+    "discovery": [
+      "official company careers",
+      "official ATS",
+      "job aggregators"
+    ],
+    "recommendation_evidence": [
+      "official company careers",
+      "official ATS"
+    ],
+    "aggregator_only_recommendation": false,
+    "preferred_ats": [
+      "Ashby",
+      "Greenhouse",
+      "Lever",
+      "Workday"
+    ]
+  },
+  "notification_policy": "Notify only genuinely relevant opportunities and explicitly state location, timezone, working-hours and contracting restrictions."
+}
